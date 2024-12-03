@@ -1,0 +1,68 @@
+/* 重置一些默认的浏览器样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333333;
+    color: rgb(2, 10, 130);
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.showcase-image {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em 0;
+    position: relative; /* 确保footer不会覆盖内容，但这里不需要fixed定位 */
+    bottom: 0; /* 这个属性在这里不适用，因为footer不是fixed定位的 */
+    width: 100%; /* 这个属性是默认的，但写上也无妨 */
+}
