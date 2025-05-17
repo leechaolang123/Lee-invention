@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>最新诗词 - 古典诗词</title>
+    <style>
+        /* 复用首页样式，仅修改标题和内容 */
+        body {
+            font-family: 'STKaiti', serif;
+            background: #e8f5e9;
+            padding: 20px;
+        }
+        .page-title {
+            text-align: center;
+            color: #2e7d32;
+            margin: 20px 0;
+            font-size: 24px;
+        }
+        .poem-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- 复用导航栏代码 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 style="color: #2e7d32; font-weight: bold;">古典诗词</h1>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">热门诗词推荐</a></li>
+                <li class="nav-item active"><a href="new-poems.html">最新诗词发布</a></li>
+                <li class="nav-item"><a href="authors.html">作者</a></li>
+                <li class="nav-item"><a href="quotes.html">诗词佳句</a></li>
+                <li class="nav-item"><a href="collection.html">我的收藏</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <h1 class="page-title">最新诗词发布</h1>
+    <div class="poem-list">
+        <div class="poem-card">
+            <div class="poem-title" onclick="location.href='poem-detail.html'">秋夜寄怀</div>
+            <div class="poem-author">用户投稿 · 2023</div>
+            <div class="poem-snippet">秋风起时叶纷飞，孤灯夜下影相随。遥念故园千里外，月满西楼人未归。</div>
+        </div>
+    </div>
+</body>
+</html>
